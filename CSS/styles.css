@@ -186,7 +186,7 @@ tab10 { position:absolute;left:275px; }
 
 .form-input:focus-visible,
 .form-textarea:focus-visible {
-  outline: 2px solid #2563eb;
+  outline: 2px solid #5A8B50;
   outline-offset: 2px;
 }
 
@@ -197,10 +197,18 @@ tab10 { position:absolute;left:275px; }
 .form-submit {
   width: 100%;
   margin-top: 1.2rem;
-  background-color: #5A8B50;
-  /* check on gradient/hover */
-  /* background-color: #3124ca; */
+  font-size: 1.2rem;
+  background: linear-gradient(to right, #a5b584, #5A8B50 );
   color: #fff;
+  border: none;
   padding: 13px 5px;
   border-radius: 0.375rem;
+  transition: background 0.3s ease;
+  box-shadow: 0 4px 15px 0 rgba(90, 139, 80, 0.75);
 }
+
+.form-submit:hover {
+  background: linear-gradient(to right,#5A8B50, #C0A770 );
+  box-shadow: 0 4px 15px 0 rgba(90, 139, 80, 0.75);
+}
+/* rgb(90, 139, 80) */
