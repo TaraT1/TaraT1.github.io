@@ -7,7 +7,7 @@ body {
 
 img {
 	width: 900px;
-	max-width: 100%
+	max-width: 100%;
 	display: block;
 	height: auto;
 }
@@ -198,6 +198,7 @@ tab10 { position:absolute;left:275px; }
   width: 100%;
   margin-top: 1.2rem;
   background-color: #5A8B50;
+  /* check on gradient/hover */
   /* background-color: #3124ca; */
   color: #fff;
   padding: 13px 5px;
